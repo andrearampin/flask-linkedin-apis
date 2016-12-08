@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+    <p>
+        {% if data %}
+            <i>{{ data.firstName }} {{ data.lastName }}</i> is a <i>{{ data.headline }}</i>
+        {% else %}
+            <a href="/login" title="Login">Login</a>
+        {% endif %}
+    </p>
+{% endblock %}
