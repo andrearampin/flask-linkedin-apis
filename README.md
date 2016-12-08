@@ -15,7 +15,7 @@ Please update `client_id` and `client_secret` in the **config.ini** file.
 
 ### Install application through `virtualenv`
 Once you have cloned the project:
-`$ cd folder`
+`$ cd flask-linkedin-apis/`
 `$ chmod +x setup.sh && ./setup.sh`
 `$ chmod +x activate.sh && ./activate.sh`
 when the last command is given, the application will respond at the address: http://127.0.0.1:5000.
